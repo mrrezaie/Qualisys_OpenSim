@@ -30,18 +30,20 @@ See how it works: [LINK TO YOUTUBE]
 
 ---
 ### Requirements
-- Install miniconda/minigorge/mambaforge with the following packages:
-    - Numpy, Scipy (https://anaconda.org/conda-forge/scikit-learn)
-    - OpenSim (https://anaconda.org/opensim_admin/opensim)
-- In QTM Project Options, make sure these settings are satisfied:
-    - Coordinate system is set to World (Lab) in Force Data
-    - 3D data and Force data are checked in MATLAB file Export
-    - Python path is defined correctly in Folder Options
+Install miniconda/minigorge/mambaforge with the following packages:
+- Numpy, Scipy (https://anaconda.org/conda-forge/scikit-learn)
+- OpenSim (https://anaconda.org/opensim_admin/opensim)
 
 ---
-### Notes
+### IMPORTANT NOTES
+USE IT AT YOUR OWN RISK.
 
 Only Gait (Walking and Running) trials is supported.
+
+In QTM Project Options, make sure these settings are satisfied:
+- Coordinate system is set to World (Lab) in Force Data
+- 3D data and Force data are checked in MATLAB file Export
+- Python path is defined correctly in Folder Options
 
 Here I used MAT format instead of C3D because no C3D parser (e.g EZC3D or BTK) takes Kistler COP correction (FPCOPPOLY) prameter into account. Fortunately, QTM does it. Why don't we exclude mediums?  
 
