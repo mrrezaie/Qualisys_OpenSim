@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSimDocument Version="40000">
+	<ForceSet name="actuators">
+		<objects>
+			<CoordinateActuator name="pelvis_tilt_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>pelvis_tilt</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>200</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="pelvis_list_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>pelvis_list</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>200</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="pelvis_rotation_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>pelvis_rotation</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>200</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="pelvis_tx_force">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>pelvis_tx</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>200</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="pelvis_ty_force">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>pelvis_ty</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>200</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="pelvis_tz_force">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>pelvis_tz</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>200</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="hip_flexion_r_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>hip_flexion_r</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>2.5</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="hip_adduction_r_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>hip_adduction_r</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>5</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="hip_rotation_r_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>hip_rotation_r</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>10</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="knee_angle_r_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>knee_angle_r</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>2.5</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="knee_angle_r_beta_force">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>knee_angle_r_beta</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>2.5</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="ankle_angle_r_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>ankle_angle_r</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>2.5</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="subtalar_angle_r_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>subtalar_angle_r</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="mtp_angle_r_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>mtp_angle_r</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="hip_flexion_l_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>hip_flexion_l</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>2.5</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="hip_adduction_l_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>hip_adduction_l</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>5</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="hip_rotation_l_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>hip_rotation_l</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>10</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="knee_angle_l_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>knee_angle_l</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>2.5</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="knee_angle_l_beta_force">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>knee_angle_l_beta</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>2.5</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="ankle_angle_l_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>ankle_angle_l</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>2.5</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="subtalar_angle_l_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>subtalar_angle_l</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="mtp_angle_l_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>mtp_angle_l</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="lumbar_extension_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>lumbar_extension</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="lumbar_bending_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>lumbar_bending</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="lumbar_rotation_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>lumbar_rotation</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="arm_flex_r_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>arm_flex_r</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="arm_add_r_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>arm_add_r</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="arm_rot_r_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>arm_rot_r</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="elbow_flex_r_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>elbow_flex_r</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="pro_sup_r_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>pro_sup_r</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="wrist_flex_r_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>wrist_flex_r</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="wrist_dev_r_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>wrist_dev_r</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="arm_flex_l_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>arm_flex_l</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="arm_add_l_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>arm_add_l</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="arm_rot_l_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>arm_rot_l</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="elbow_flex_l_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>elbow_flex_l</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="pro_sup_l_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>pro_sup_l</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="wrist_flex_l_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>wrist_flex_l</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+			<CoordinateActuator name="wrist_dev_l_moment">
+				<!--Name of the generalized coordinate to which the actuator applies.-->
+				<coordinate>wrist_dev_l</coordinate>
+				<!--The maximum generalized force produced by this actuator.-->
+				<optimal_force>1</optimal_force>
+			</CoordinateActuator>
+		</objects>
+		<groups />
+	</ForceSet>
+</OpenSimDocument>

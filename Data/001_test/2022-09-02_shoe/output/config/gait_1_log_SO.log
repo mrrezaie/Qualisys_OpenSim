@@ -1,0 +1,201 @@
+[2022-09-02 16:54:04.980] [info] Loaded model model from file D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\calibrated.osim
+[2022-09-02 16:54:05.949] [info] Adding force object set from D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\config\setup_actuators.xml
+[2022-09-02 16:54:06.394] [info] Storage: read data file = D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\gait_1_force.mot (nr=2520 nc=19)
+[2022-09-02 16:54:06.483] [info] ExternalForce::R Data source being set to forces
+[2022-09-02 16:54:06.579] [info] Loading coordinates from file 'D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\gait_1_inverse_kinematics.mot'.
+[2022-09-02 16:54:06.581] [info] Storage: read data file = D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\gait_1_inverse_kinematics.mot (nr=252 nc=40)
+[2022-09-02 16:54:06.604] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2022-09-02 16:54:07.335] [info] AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 9.9323848462597956e-09 required: 1e-10.
+[2022-09-02 16:54:07.380] [error] Model unable to assemble: AssemblySolver::assemble() Failed: SimTK Exception thrown at Assembler.cpp:897:
+  Method Assembler::assemble() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 9.9323848462239853e-09 required: 1e-10..Model relaxing constraints and trying again.
+[2022-09-02 16:54:09.659] [info] Found 504 state vectors with time stamps ranging from -0.63 to 1.885.
+[2022-09-02 16:54:09.660] [info] Executing the analyses from 0.395 to 0.69...
+[2022-09-02 16:54:10.141] [info] Storage: read data file = D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\gait_1_force.mot (nr=2520 nc=19)
+[2022-09-02 16:54:10.190] [info] ExternalForce::R Data source being set to forces
+[2022-09-02 16:54:10.328] [info] Storage: read data file = D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\gait_1_force.mot (nr=2520 nc=19)
+[2022-09-02 16:54:10.396] [info] ExternalForce::R Data source being set to forces
+[2022-09-02 16:54:16.514] [cout] [info] time = 0.395 Performance = 1235.52 Constraint violation = 1.1869e-09
+[2022-09-02 16:54:16.723] [info] Bounds for 'addbrev_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.793] [info] Bounds for 'addlong_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.839] [info] Bounds for 'addmagDist_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.879] [info] Bounds for 'addmagIsch_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.904] [info] Bounds for 'addmagMid_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.910] [info] Bounds for 'addmagProx_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.912] [info] Bounds for 'bflh_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.914] [info] Bounds for 'bfsh_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.917] [info] Bounds for 'edl_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.918] [info] Bounds for 'ehl_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.918] [info] Bounds for 'fdl_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.920] [info] Bounds for 'fhl_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.920] [info] Bounds for 'gaslat_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.921] [info] Bounds for 'gasmed_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.922] [info] Bounds for 'glmax1_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.922] [info] Bounds for 'glmax2_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.923] [info] Bounds for 'glmax3_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.923] [info] Bounds for 'glmed1_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.924] [info] Bounds for 'glmed2_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.925] [info] Bounds for 'glmed3_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.926] [info] Bounds for 'glmin1_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.926] [info] Bounds for 'glmin2_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.929] [info] Bounds for 'glmin3_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.934] [info] Bounds for 'grac_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.938] [info] Bounds for 'iliacus_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.941] [info] Bounds for 'perbrev_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.963] [info] Bounds for 'perlong_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.967] [info] Bounds for 'piri_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.984] [info] Bounds for 'psoas_r': 0.01 to 1.0.
+[2022-09-02 16:54:16.991] [info] Bounds for 'recfem_r': 0.01 to 1.0.
+[2022-09-02 16:54:17.016] [info] Bounds for 'sart_r': 0.01 to 1.0.
+[2022-09-02 16:54:17.019] [info] Bounds for 'semimem_r': 0.01 to 1.0.
+[2022-09-02 16:54:17.037] [info] Bounds for 'semiten_r': 0.01 to 1.0.
+[2022-09-02 16:54:17.077] [info] Bounds for 'soleus_r': 0.01 to 1.0.
+[2022-09-02 16:54:17.097] [info] Bounds for 'tfl_r': 0.01 to 1.0.
+[2022-09-02 16:54:17.157] [info] Bounds for 'tibant_r': 0.01 to 1.0.
+[2022-09-02 16:54:17.225] [info] Bounds for 'tibpost_r': 0.01 to 1.0.
+[2022-09-02 16:54:17.246] [info] Bounds for 'vasint_r': 0.01 to 1.0.
+[2022-09-02 16:54:17.253] [info] Bounds for 'vaslat_r': 0.01 to 1.0.
+[2022-09-02 16:54:17.255] [info] Bounds for 'vasmed_r': 0.01 to 1.0.
+[2022-09-02 16:54:17.255] [info] Bounds for 'addbrev_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.256] [info] Bounds for 'addlong_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.256] [info] Bounds for 'addmagDist_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.273] [info] Bounds for 'addmagIsch_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.273] [info] Bounds for 'addmagMid_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.275] [info] Bounds for 'addmagProx_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.276] [info] Bounds for 'bflh_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.277] [info] Bounds for 'bfsh_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.282] [info] Bounds for 'edl_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.304] [info] Bounds for 'ehl_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.332] [info] Bounds for 'fdl_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.395] [info] Bounds for 'fhl_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.474] [info] Bounds for 'gaslat_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.516] [info] Bounds for 'gasmed_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.520] [info] Bounds for 'glmax1_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.522] [info] Bounds for 'glmax2_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.524] [info] Bounds for 'glmax3_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.526] [info] Bounds for 'glmed1_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.528] [info] Bounds for 'glmed2_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.554] [info] Bounds for 'glmed3_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.557] [info] Bounds for 'glmin1_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.559] [info] Bounds for 'glmin2_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.559] [info] Bounds for 'glmin3_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.560] [info] Bounds for 'grac_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.560] [info] Bounds for 'iliacus_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.562] [info] Bounds for 'perbrev_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.564] [info] Bounds for 'perlong_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.564] [info] Bounds for 'piri_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.566] [info] Bounds for 'psoas_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.567] [info] Bounds for 'recfem_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.568] [info] Bounds for 'sart_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.576] [info] Bounds for 'semimem_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.635] [info] Bounds for 'semiten_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.766] [info] Bounds for 'soleus_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.845] [info] Bounds for 'tfl_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.906] [info] Bounds for 'tibant_l': 0.01 to 1.0.
+[2022-09-02 16:54:17.996] [info] Bounds for 'tibpost_l': 0.01 to 1.0.
+[2022-09-02 16:54:18.004] [info] Bounds for 'vasint_l': 0.01 to 1.0.
+[2022-09-02 16:54:18.259] [info] Bounds for 'vaslat_l': 0.01 to 1.0.
+[2022-09-02 16:54:18.478] [info] Bounds for 'vasmed_l': 0.01 to 1.0.
+[2022-09-02 16:54:18.566] [info] Bounds for 'pelvis_tilt_moment': -inf to inf.
+[2022-09-02 16:54:18.623] [info] Bounds for 'pelvis_list_moment': -inf to inf.
+[2022-09-02 16:54:18.637] [info] Bounds for 'pelvis_rotation_moment': -inf to inf.
+[2022-09-02 16:54:18.638] [info] Bounds for 'pelvis_tx_force': -inf to inf.
+[2022-09-02 16:54:18.639] [info] Bounds for 'pelvis_ty_force': -inf to inf.
+[2022-09-02 16:54:18.678] [info] Bounds for 'pelvis_tz_force': -inf to inf.
+[2022-09-02 16:54:18.857] [info] Bounds for 'hip_flexion_r_moment': -inf to inf.
+[2022-09-02 16:54:19.046] [info] Bounds for 'hip_adduction_r_moment': -inf to inf.
+[2022-09-02 16:54:19.195] [info] Bounds for 'hip_rotation_r_moment': -inf to inf.
+[2022-09-02 16:54:19.257] [info] Bounds for 'knee_angle_r_moment': -inf to inf.
+[2022-09-02 16:54:19.261] [info] Bounds for 'knee_angle_r_beta_force': -inf to inf.
+[2022-09-02 16:54:19.352] [info] Bounds for 'ankle_angle_r_moment': -inf to inf.
+[2022-09-02 16:54:19.381] [info] Bounds for 'subtalar_angle_r_moment': -inf to inf.
+[2022-09-02 16:54:19.405] [info] Bounds for 'mtp_angle_r_moment': -inf to inf.
+[2022-09-02 16:54:19.414] [info] Bounds for 'hip_flexion_l_moment': -inf to inf.
+[2022-09-02 16:54:19.574] [info] Bounds for 'hip_adduction_l_moment': -inf to inf.
+[2022-09-02 16:54:19.595] [info] Bounds for 'hip_rotation_l_moment': -inf to inf.
+[2022-09-02 16:54:19.675] [info] Bounds for 'knee_angle_l_moment': -inf to inf.
+[2022-09-02 16:54:19.677] [info] Bounds for 'knee_angle_l_beta_force': -inf to inf.
+[2022-09-02 16:54:19.700] [info] Bounds for 'ankle_angle_l_moment': -inf to inf.
+[2022-09-02 16:54:19.728] [info] Bounds for 'subtalar_angle_l_moment': -inf to inf.
+[2022-09-02 16:54:19.771] [info] Bounds for 'mtp_angle_l_moment': -inf to inf.
+[2022-09-02 16:54:19.927] [info] Bounds for 'lumbar_extension_moment': -inf to inf.
+[2022-09-02 16:54:20.086] [info] Bounds for 'lumbar_bending_moment': -inf to inf.
+[2022-09-02 16:54:20.247] [info] Bounds for 'lumbar_rotation_moment': -inf to inf.
+[2022-09-02 16:54:20.336] [info] Bounds for 'arm_flex_r_moment': -inf to inf.
+[2022-09-02 16:54:20.355] [info] Bounds for 'arm_add_r_moment': -inf to inf.
+[2022-09-02 16:54:20.359] [info] Bounds for 'arm_rot_r_moment': -inf to inf.
+[2022-09-02 16:54:20.370] [info] Bounds for 'elbow_flex_r_moment': -inf to inf.
+[2022-09-02 16:54:20.379] [info] Bounds for 'pro_sup_r_moment': -inf to inf.
+[2022-09-02 16:54:20.441] [info] Bounds for 'wrist_flex_r_moment': -inf to inf.
+[2022-09-02 16:54:20.511] [info] Bounds for 'wrist_dev_r_moment': -inf to inf.
+[2022-09-02 16:54:20.517] [info] Bounds for 'arm_flex_l_moment': -inf to inf.
+[2022-09-02 16:54:20.518] [info] Bounds for 'arm_add_l_moment': -inf to inf.
+[2022-09-02 16:54:20.519] [info] Bounds for 'arm_rot_l_moment': -inf to inf.
+[2022-09-02 16:54:20.705] [info] Bounds for 'elbow_flex_l_moment': -inf to inf.
+[2022-09-02 16:54:21.072] [info] Bounds for 'pro_sup_l_moment': -inf to inf.
+[2022-09-02 16:54:21.304] [info] Bounds for 'wrist_flex_l_moment': -inf to inf.
+[2022-09-02 16:54:21.668] [info] Bounds for 'wrist_dev_l_moment': -inf to inf.
+[2022-09-02 16:54:25.276] [cout] [info] time = 0.4 Performance = 1445.83 Constraint violation = 3.60922e-09
+[2022-09-02 16:54:28.065] [cout] [info] time = 0.405000 Performance = 1614.29 Constraint violation = 8.16866e-10
+[2022-09-02 16:54:29.571] [cout] [info] time = 0.41 Performance = 1659.17 Constraint violation = 4.04966e-10
+[2022-09-02 16:54:30.999] [cout] [info] time = 0.415 Performance = 1572.74 Constraint violation = 2.38604e-09
+[2022-09-02 16:54:31.965] [cout] [info] time = 0.42 Performance = 1458.01 Constraint violation = 1.31732e-09
+[2022-09-02 16:54:32.765] [cout] [info] time = 0.425 Performance = 1322.23 Constraint violation = 4.45912e-09
+[2022-09-02 16:54:33.678] [cout] [info] time = 0.43 Performance = 1087.08 Constraint violation = 3.97997e-09
+[2022-09-02 16:54:34.447] [cout] [info] time = 0.435 Performance = 862.968 Constraint violation = 1.17924e-09
+[2022-09-02 16:54:35.247] [cout] [info] time = 0.44 Performance = 829.437 Constraint violation = 4.93111e-10
+[2022-09-02 16:54:36.029] [cout] [info] time = 0.445 Performance = 918.016 Constraint violation = 2.33088e-09
+[2022-09-02 16:54:36.856] [cout] [info] time = 0.45 Performance = 943.405 Constraint violation = 7.97787e-11
+[2022-09-02 16:54:37.592] [cout] [info] time = 0.455 Performance = 832.23 Constraint violation = 2.13121e-09
+[2022-09-02 16:54:38.311] [cout] [info] time = 0.46 Performance = 626.096 Constraint violation = 3.79788e-10
+[2022-09-02 16:54:39.039] [cout] [info] time = 0.465 Performance = 470.928 Constraint violation = 1.75919e-09
+[2022-09-02 16:54:39.925] [cout] [info] time = 0.47 Performance = 635.703 Constraint violation = 2.85433e-09
+[2022-09-02 16:54:40.774] [cout] [info] time = 0.475 Performance = 1425.71 Constraint violation = 3.68372e-10
+[2022-09-02 16:54:41.594] [cout] [info] time = 0.48 Performance = 2944.74 Constraint violation = 6.39438e-09
+[2022-09-02 16:54:42.368] [cout] [info] time = 0.485 Performance = 4925.89 Constraint violation = 3.42493e-08
+[2022-09-02 16:54:43.132] [cout] [info] time = 0.49 Performance = 6924.07 Constraint violation = 6.443e-10
+[2022-09-02 16:54:43.855] [cout] [info] time = 0.495 Performance = 8623.88 Constraint violation = 3.09773e-10
+[2022-09-02 16:54:44.822] [cout] [info] time = 0.5 Performance = 9878.03 Constraint violation = 7.18855e-09
+[2022-09-02 16:54:45.727] [cout] [info] time = 0.505000 Performance = 10643.3 Constraint violation = 3.89018e-09
+[2022-09-02 16:54:46.484] [cout] [info] time = 0.51 Performance = 10922.3 Constraint violation = 9.65122e-09
+[2022-09-02 16:54:47.225] [cout] [info] time = 0.515 Performance = 10709.0 Constraint violation = 1.58499e-09
+[2022-09-02 16:54:48.142] [cout] [info] time = 0.52 Performance = 10087.2 Constraint violation = 1.85308e-09
+[2022-09-02 16:54:49.084] [cout] [info] time = 0.525 Performance = 9326.02 Constraint violation = 1.45872e-10
+[2022-09-02 16:54:49.948] [cout] [info] time = 0.53 Performance = 8746.32 Constraint violation = 8.80284e-10
+[2022-09-02 16:54:50.796] [cout] [info] time = 0.535 Performance = 8473.46 Constraint violation = 1.3938e-09
+[2022-09-02 16:54:51.589] [cout] [info] time = 0.54 Performance = 8346.13 Constraint violation = 1.27415e-10
+[2022-09-02 16:54:52.442] [cout] [info] time = 0.545 Performance = 8050.71 Constraint violation = 1.58143e-10
+[2022-09-02 16:54:53.961] [cout] [info] time = 0.55 Performance = 7341.32 Constraint violation = 2.26303e-09
+[2022-09-02 16:54:55.033] [cout] [info] time = 0.555 Performance = 6217.47 Constraint violation = 3.86701e-10
+[2022-09-02 16:54:55.810] [cout] [info] time = 0.56 Performance = 4943.55 Constraint violation = 5.63379e-10
+[2022-09-02 16:54:57.112] [cout] [info] time = 0.565 Performance = 3850.32 Constraint violation = 4.38165e-10
+[2022-09-02 16:54:58.018] [cout] [info] time = 0.57 Performance = 3119.33 Constraint violation = 2.20714e-10
+[2022-09-02 16:54:58.887] [cout] [info] time = 0.575 Performance = 2739.54 Constraint violation = 6.5459e-09
+[2022-09-02 16:54:59.620] [cout] [info] time = 0.58 Performance = 2536.51 Constraint violation = 1.08854e-09
+[2022-09-02 16:55:00.388] [cout] [info] time = 0.585 Performance = 2263.1 Constraint violation = 3.46198e-10
+[2022-09-02 16:55:01.132] [cout] [info] time = 0.59 Performance = 1801.36 Constraint violation = 3.86474e-09
+[2022-09-02 16:55:01.860] [cout] [info] time = 0.595 Performance = 1300.98 Constraint violation = 2.33251e-09
+[2022-09-02 16:55:03.302] [cout] [info] time = 0.6 Performance = 1013.49 Constraint violation = 1.33992e-10
+[2022-09-02 16:55:04.195] [cout] [info] time = 0.605000 Performance = 1025.01 Constraint violation = 8.62907e-10
+[2022-09-02 16:55:04.908] [cout] [info] time = 0.61 Performance = 1283.25 Constraint violation = 7.67507e-10
+[2022-09-02 16:55:05.641] [cout] [info] time = 0.615 Performance = 1695.33 Constraint violation = 3.35949e-09
+[2022-09-02 16:55:06.468] [cout] [info] time = 0.62 Performance = 2035.38 Constraint violation = 1.18777e-09
+[2022-09-02 16:55:07.191] [cout] [info] time = 0.625 Performance = 2050.73 Constraint violation = 2.28123e-10
+[2022-09-02 16:55:07.911] [cout] [info] time = 0.63 Performance = 1721.18 Constraint violation = 1.05689e-09
+[2022-09-02 16:55:08.735] [cout] [info] time = 0.635 Performance = 1292.71 Constraint violation = 1.89484e-11
+[2022-09-02 16:55:10.745] [cout] [info] time = 0.64 Performance = 1010.21 Constraint violation = 5.04084e-11
+[2022-09-02 16:55:11.823] [cout] [info] time = 0.645 Performance = 942.517 Constraint violation = 2.0117e-10
+[2022-09-02 16:55:12.540] [cout] [info] time = 0.65 Performance = 1040.32 Constraint violation = 2.67314e-10
+[2022-09-02 16:55:13.269] [cout] [info] time = 0.655 Performance = 1183.35 Constraint violation = 4.69966e-10
+[2022-09-02 16:55:13.977] [cout] [info] time = 0.66 Performance = 1244.18 Constraint violation = 1.40384e-09
+[2022-09-02 16:55:14.686] [cout] [info] time = 0.665 Performance = 1196.19 Constraint violation = 8.00597e-11
+[2022-09-02 16:55:15.392] [cout] [info] time = 0.67 Performance = 1130.29 Constraint violation = 9.27718e-11
+[2022-09-02 16:55:16.087] [cout] [info] time = 0.675 Performance = 1174.46 Constraint violation = 6.16628e-10
+[2022-09-02 16:55:16.793] [cout] [info] time = 0.68 Performance = 1402.64 Constraint violation = 3.72866e-10
+[2022-09-02 16:55:18.643] [cout] [info] time = 0.685 Performance = 1770.18 Constraint violation = 6.1654e-11
+[2022-09-02 16:55:21.467] [cout] [info] time = 0.69 Performance = 2088.54 Constraint violation = 4.46717e-09
+[2022-09-02 16:55:21.478] [info] Printing results of investigation gait_1 to D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output

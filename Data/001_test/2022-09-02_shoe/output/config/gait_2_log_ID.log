@@ -1,0 +1,24 @@
+[2022-09-02 16:55:53.576] [info] Loaded model model from file D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\calibrated.osim
+[2022-09-02 16:55:53.738] [info] Storage: read data file = D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\gait_2_inverse_kinematics.mot (nr=257 nc=40)
+[2022-09-02 16:55:53.814] [cout] [info] 
+               MODEL: model
+         coordinates: 39
+              forces: 80
+           actuators: 80
+             muscles: 80
+            analyses: 0
+              probes: 0
+              bodies: 22
+              joints: 22
+         constraints: 2
+             markers: 48
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2022-09-02 16:55:53.815] [info] Running tool ...
+[2022-09-02 16:55:54.030] [info] Storage: read data file = D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\gait_2_force.mot (nr=2570 nc=19)
+[2022-09-02 16:55:54.083] [info] ExternalForce::R Data source being set to forces
+[2022-09-02 16:55:54.125] [info] Storage: read data file = D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\gait_2_inverse_kinematics.mot (nr=257 nc=40)
+[2022-09-02 16:55:54.137] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2022-09-02 16:55:55.012] [info] InverseDynamicsTool: 257 time frames in 525 millisecond(s).
+[2022-09-02 16:55:55.013] [warning] Directory 'd:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\' was specified where only file name 'gait_2_inverse_dynamics' is expected. The directory will be ignored. Result files will be written to directory 'D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output' instead.

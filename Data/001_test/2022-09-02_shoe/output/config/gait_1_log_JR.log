@@ -1,0 +1,24 @@
+[2022-09-02 16:55:23.601] [info] Loaded model model from file D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\calibrated.osim
+[2022-09-02 16:55:24.159] [info] Adding force object set from D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\config\setup_actuators.xml
+[2022-09-02 16:55:24.184] [info] Storage: read data file = D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\gait_1_inverse_kinematics.mot (nr=252 nc=40)
+[2022-09-02 16:55:24.684] [info] Storage: read data file = D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\gait_1_force.mot (nr=2520 nc=19)
+[2022-09-02 16:55:24.764] [info] ExternalForce::R Data source being set to forces
+[2022-09-02 16:55:24.847] [info] Loading coordinates from file 'D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\gait_1_inverse_kinematics.mot'.
+[2022-09-02 16:55:24.849] [info] Storage: read data file = D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\gait_1_inverse_kinematics.mot (nr=252 nc=40)
+[2022-09-02 16:55:24.871] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2022-09-02 16:55:25.718] [info] AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 9.9323848462597956e-09 required: 1e-10.
+[2022-09-02 16:55:25.766] [error] Model unable to assemble: AssemblySolver::assemble() Failed: SimTK Exception thrown at Assembler.cpp:897:
+  Method Assembler::assemble() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 9.9323848462239853e-09 required: 1e-10..Model relaxing constraints and trying again.
+[2022-09-02 16:55:27.737] [info] Found 504 state vectors with time stamps ranging from -0.63 to 1.885.
+[2022-09-02 16:55:27.737] [info] Executing the analyses from 0.395 to 0.69...
+[2022-09-02 16:55:27.745] [info] Loading actuator forces from file D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\gait_1_StaticOptimization_force.sto.
+[2022-09-02 16:55:27.746] [info] Storage: read data file = D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\gait_1_StaticOptimization_force.sto (nr=60 nc=129)
+[2022-09-02 16:55:27.760] [info] Found 128 actuator forces with time stamps ranging from 0.395to 0.69.
+[2022-09-02 16:55:27.760] [warning] The forces file contains actuators that are not in the model's actuator set.
+[2022-09-02 16:55:27.762] [warning] Ignoring fiber lengths and activations from the states since forces_file is also set. Actuator forces will be constructed from D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\gait_1_StaticOptimization_force.sto.
+[2022-09-02 16:55:28.517] [info] Printing results of investigation gait_1 to D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output

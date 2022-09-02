@@ -1,0 +1,43 @@
+[2022-09-02 16:53:29.357] [info] Processing subject ...
+[2022-09-02 16:53:29.358] [info] Step 1: Loading generic model
+[2022-09-02 16:53:29.544] [info] Loaded model Rajagopal2015_passiveCal_hipAbdMoved from file d:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Templates\Rajagopal2015_passiveCal_hipAbdMoved.osim
+[2022-09-02 16:53:29.834] [info] Loading marker set from 'D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Templates\setupMarkers.xml'.
+[2022-09-02 16:53:32.467] [info] Updated markers in model Rajagopal2015_passiveCal_hipAbdMoved
+[2022-09-02 16:53:32.467] [info] Step 2: Scaling generic model
+[2022-09-02 16:53:32.579] [info] Loaded marker file D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\static_1_marker.trc (49 markers, 219 frames)
+[2022-09-02 16:53:32.579] [info] Measurement 'pelvis'
+[2022-09-02 16:53:32.580] [info] 	pair 0 (RHJC, LHJC): model = 0.15452, experimental = 0.171683
+[2022-09-02 16:53:32.580] [info] 	overall scale factor = 1.11107
+[2022-09-02 16:53:32.580] [info] Measurement 'thigh'
+[2022-09-02 16:53:32.580] [info] 	pair 0 (RHJC, RKJC): model = 0.408049, experimental = 0.425782
+[2022-09-02 16:53:32.580] [info] 	pair 1 (LHJC, LKJC): model = 0.408049, experimental = 0.436233
+[2022-09-02 16:53:32.580] [info] 	overall scale factor = 1.05626
+[2022-09-02 16:53:32.580] [info] Measurement 'shank'
+[2022-09-02 16:53:32.580] [info] 	pair 0 (RKJC, RAJC): model = 0.396473, experimental = 0.405952
+[2022-09-02 16:53:32.580] [info] 	pair 1 (LKJC, LAJC): model = 0.396473, experimental = 0.401701
+[2022-09-02 16:53:32.581] [info] 	overall scale factor = 1.01855
+[2022-09-02 16:53:32.581] [info] Measurement 'foot'
+[2022-09-02 16:53:32.581] [info] 	pair 0 (RCAL, RTOE): model = 0.210235, experimental = 0.221227
+[2022-09-02 16:53:32.582] [info] 	pair 1 (LCAL, LTOE): model = 0.210235, experimental = 0.222486
+[2022-09-02 16:53:32.582] [info] 	overall scale factor = 1.05528
+[2022-09-02 16:53:32.583] [info] Measurement 'torso'
+[2022-09-02 16:53:32.583] [info] 	pair 0 (RPSI, RACR): model = 0.481839, experimental = 0.510266
+[2022-09-02 16:53:32.583] [info] 	pair 1 (LPSI, LACR): model = 0.481839, experimental = 0.508734
+[2022-09-02 16:53:32.584] [info] 	overall scale factor = 1.05741
+[2022-09-02 16:53:32.584] [info] Measurement 'forearm'
+[2022-09-02 16:53:32.585] [info] 	pair 0 (RLEL, RFAradius): model = 0.251881, experimental = 0.26674
+[2022-09-02 16:53:32.586] [info] 	pair 1 (LLEL, LFAradius): model = 0.251881, experimental = 0.266144
+[2022-09-02 16:53:32.587] [info] 	overall scale factor = 1.05781
+[2022-09-02 16:53:32.588] [info] Measurement 'arm'
+[2022-09-02 16:53:32.588] [info] 	pair 0 (RACR, RLEL): model = 0.340069, experimental = 0.320259
+[2022-09-02 16:53:32.589] [info] 	pair 1 (LACR, LLEL): model = 0.340069, experimental = 0.327895
+[2022-09-02 16:53:32.590] [info] 	overall scale factor = 0.952975
+[2022-09-02 16:53:32.912] [info] Step 3: Placing markers on model
+[2022-09-02 16:53:32.961] [info] Loaded marker file D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\static_1_marker.trc (49 markers, 219 frames)
+[2022-09-02 16:53:32.963] [info] Averaged frames from time 0.0 to 1.09 in D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\static_1_marker.trc (frames 1 to 219)
+[2022-09-02 16:53:32.964] [info] Deleted 0 unused markers from model model.
+[2022-09-02 16:53:33.187] [info] Frame at (t = 0.0):	 total squared error = 0.0225272, marker error: RMS = 0.0265325, max = 0.0504534 (C7)
+[2022-09-02 16:53:33.188] [info] Moved markers in model model to match locations in marker file 'D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\static_1_marker.trc'.
+[2022-09-02 16:53:33.283] [info] Wrote model file 'D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\scaled.osim' from model model.
+[2022-09-02 16:53:33.455] [info] Loaded model Rajagopal2015_passiveCal_hipAbdMoved from file D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Templates\Rajagopal2015_passiveCal_hipAbdMoved.osim
+[2022-09-02 16:53:33.751] [info] Loaded model model from file D:\Academic\Codes\Python\MRR\Qualisys_OpenSim\Data\001_test\2022-09-02_shoe\output\scaled.osim
