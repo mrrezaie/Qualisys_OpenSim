@@ -40,7 +40,10 @@ See how it works: [LINK TO YOUTUBE]
 
 ---
 ### Notes
-Here I used MAT format instead of C3D because no C3D parser (e.g EZC3D or BTK) takes Kistler COP correction (FPCOPPOLY) prameter into account. Fortunately, QTM data does it. Why don't we exclude mediums?  
+
+Only Gait (Walking and Running) trials is supported.
+
+Here I used MAT format instead of C3D because no C3D parser (e.g EZC3D or BTK) takes Kistler COP correction (FPCOPPOLY) prameter into account. Fortunately, QTM does it. Why don't we exclude mediums?  
 
 If you use this PAF or any functions of the script for your project, please cite this work as:
 
