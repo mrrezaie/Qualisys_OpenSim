@@ -1,10 +1,10 @@
 # Qualisys_OpenSim
 Qualisys Track Manager Project Automation Framework with OpenSim Workflow
 
-See how it works:
+See how it works: [LINK TO YOUTUBE]
 
+----
 ### What does this PAF do?
-
 - Generate OpenSim motion files:
     - Static trial:
         - Detremine lab coordinate system based on marker data
@@ -38,6 +38,7 @@ See how it works:
     - 3D data and Force data are checked in MATLAB file Export
     - Python path is defined correctly in Folder Options
 
+---
 ### Notes
 Here I used MAT format instead of C3D because no C3D parser (e.g EZC3D or BTK) takes Kistler COP correction (FPCOPPOLY) prameter into account. Fortunately, QTM data does it. Why don't we exclude mediums?  
 
