@@ -2,39 +2,37 @@ Marker,Definition,Type,Static,Dynamic
 C7,C7 spinous process,Anatomical,*,*
 T10,T10 spinous process,Anatomical,*,*
 CLAV,Right sternoclavicular prominent,Anatomical,*,*
-RACR,Right/left acromion process,Anatomical,*,*
-LACR,,,,
-RLEL,Right/left lateral elbow (humeral lateral epicondyle),Anatomical,*,*
-LLEL,,,,
-RFAradius,Right/left lateral wrist (radial styloid process),Anatomical,*,*
-LFAradius,,,,
-RASI,Right/left anterior superior iliac spine,Anatomical,*,*
-LASI,,,,
-RPSI,Right/left posterior superior iliac spine,Anatomical,*,*
-LPSI,,,,
-RHJC,Right/left hip joint center,Virtual,*,
-LHJC,,,,
-RTH1-RTH4,a 4-cluster on right/left thigh,Tracking,,*
-LTH1-LTH4,,,,
-RLFC,Right/left lateral epicondyle of femur,Anatomical,*,*
-LLFC,,,,
-RMFC,Right/left medial epicondyle of femur,Anatomical,*,
-LMFC,,,,
-RKJC,Right/left knee joint center,Virtual,*,
-LKJC,,,,
-RTB1-RTB4,A 4-cluster on right/left tibia,Tracking,,*
-LTB1-LTB4,,,,
-RLMAL,Right/left lateral malleolus,Anatomical,*,
-LLMAL,,,,
-RMMAL,Right/left medial malleolus,Anatomical,*,
-LMMAL,,,,
-RAJC,Right/left ankle joint center,Virtual,*,
-LAJC,,,,
-RCAL,Right/left calcaneus tuberosity,Anatomical,*,*
-LCAL,,,,
-RMT1,Right/left 1st metatarsal head,Anatomical,*,*
-LMT1,,,,
-RMT5,Right/left 5th metatarsal head,Anatomical,*,*
-LMT5,,,,
-RFF,Right/left forefoot (mid MT1 and MT5),Virtual,*,
-LFF,,,,
+RACR,Right acromion process,Anatomical,*,*
+LACR,Left acromion process,Anatomical,*,*
+RLEL,Right lateral elbow (humeral lateral epicondyle),Anatomical,*,*
+LLEL,Left lateral elbow (humeral lateral epicondyle),Anatomical,*,*
+RFAradius,Right lateral wrist (radial styloid process),Anatomical,*,*
+LFAradius,Left lateral wrist (radial styloid process),Anatomical,*,*
+RASI,Right anterior superior iliac spine,Anatomical,*,*
+LASI,Left anterior superior iliac spine,Anatomical,*,*
+RPSI,Right posterior superior iliac spine,Anatomical,*,*
+LPSI,Left posterior superior iliac spine,Anatomical,*,*
+RHJC,Right hip joint center,Virtual,*,
+LHJC,Left hip joint center,Virtual,*,
+RTH1-RTH4,4 clusters on right thigh,Tracking,,*
+LTH1-LTH4,4 clusters on left thigh,Tracking,,*
+RLFC,Right lateral epicondyle of femur,Anatomical,*,*
+LLFC,Left lateral epicondyle of femur,Anatomical,*,*
+RMFC,Right medial epicondyle of femur,Anatomical,*,
+LMFC,Left medial epicondyle of femur,Anatomical,*,
+RKJC,Right knee joint center,Virtual,*,
+LKJC,Left knee joint center,Virtual,*,
+RTB1-RTB4,4 clusters on right tibia,Tracking,,*
+LTB1-LTB4,4 clusters on left tibia,Tracking,,*
+RLMAL,Right lateral malleolus,Anatomical,*,
+LLMAL,Left lateral malleolus,Anatomical,*,
+RMMAL,Right medial malleolus,Anatomical,*,
+LMMAL,Left medial malleolus,Anatomical,*,
+RAJC,Right ankle joint center,Virtual,*,
+LAJC,Left ankle joint center,Virtual,*,
+RCAL,Right calcaneus tuberosity,Anatomical,*,*
+LCAL,Left calcaneus tuberosity,Anatomical,*,*
+RMT1,Right 1st metatarsal head,Anatomical,*,*
+LMT1,Left 1st metatarsal head,Anatomical,*,*
+RMT5,Right 5th metatarsal head,Anatomical,*,*
+LMT5,Left 5th metatarsal head,Anatomical,*,*
