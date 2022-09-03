@@ -15,7 +15,7 @@ Filename filter: \.(pdf)$
 Types:
   Subject:
     Participant:
-      Fields: [ID, Name, Gender, Age, Weight, Height]
+      Fields: [ID, Name, Gender, Age, Mass, Height]
       Children: [Session]
       Directory pattern: $ID$_$Name$
 
@@ -94,7 +94,7 @@ Fields:
     Max: 250
     Min: 50
     Force: No
-  Weight:
+  Mass:
     Type: Float
     Quantity: Mass
     Unit: kilograms

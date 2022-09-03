@@ -434,7 +434,7 @@ def Scale():
 
 	scale = osim.ScaleTool(join(TEMPpath, 'setupScaleDefault.xml'))
 	scale.setPathToSubject('')
-	scale.setSubjectMass(weight)
+	scale.setSubjectMass(mass)
 	scale.setSubjectHeight(1000*height) # in mm
 	scale.getGenericModelMaker().setModelFileName(join(TEMPpath, 'Rajagopal2015_passiveCal_hipAbdMoved.osim'))
 	scale.getGenericModelMaker().setMarkerSetFileName(join(TEMPpath, 'setupMarkers.xml'))
@@ -462,7 +462,7 @@ def Scale():
 
 	mMass = 75 # Rajagopal mass (kg)
 	mHeight = 1.70 # Rajagopal height (m)
-	sMass = weight
+	sMass = mass
 	sHeight = height
 	mVolume = 47.05*mMass*mHeight + 1289.6
 	sVolume = 47.05*sMass*sHeight + 1289.6
@@ -715,7 +715,7 @@ for i,ii in enumerate(trials):
 		trials.insert(0, ii)
 
 # get parameters
-for i in root.iter('Weight'): weight = float(i.text)
+for i in root.iter('Mass'): mass = float(i.text)
 for i in root.iter('Height'): height = float(i.text)
 for i in root.iter('GRF_cutoff_frequency'): FC = float(i.text)
 

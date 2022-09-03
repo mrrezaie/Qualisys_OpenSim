@@ -1,0 +1,40 @@
+Marker,Definition,Type,Static,Dynamic
+C7,C7 spinous process,Anatomical,*,*
+T10,T10 spinous process,Anatomical,*,*
+CLAV,Right sternoclavicular prominent,Anatomical,*,*
+RACR,Right/left acromion process,Anatomical,*,*
+LACR,,,,
+RLEL,Right/left lateral elbow (humeral lateral epicondyle),Anatomical,*,*
+LLEL,,,,
+RFAradius,Right/left lateral wrist (radial styloid process),Anatomical,*,*
+LFAradius,,,,
+RASI,Right/left anterior superior iliac spine,Anatomical,*,*
+LASI,,,,
+RPSI,Right/left posterior superior iliac spine,Anatomical,*,*
+LPSI,,,,
+RHJC,Right/left hip joint center,Virtual,*,
+LHJC,,,,
+RTH1-RTH4,a 4-cluster on right/left thigh,Tracking,,*
+LTH1-LTH4,,,,
+RLFC,Right/left lateral epicondyle of femur,Anatomical,*,*
+LLFC,,,,
+RMFC,Right/left medial epicondyle of femur,Anatomical,*,
+LMFC,,,,
+RKJC,Right/left knee joint center,Virtual,*,
+LKJC,,,,
+RTB1-RTB4,A 4-cluster on right/left tibia,Tracking,,*
+LTB1-LTB4,,,,
+RLMAL,Right/left lateral malleolus,Anatomical,*,
+LLMAL,,,,
+RMMAL,Right/left medial malleolus,Anatomical,*,
+LMMAL,,,,
+RAJC,Right/left ankle joint center,Virtual,*,
+LAJC,,,,
+RCAL,Right/left calcaneus tuberosity,Anatomical,*,*
+LCAL,,,,
+RMT1,Right/left 1st metatarsal head,Anatomical,*,*
+LMT1,,,,
+RMT5,Right/left 5th metatarsal head,Anatomical,*,*
+LMT5,,,,
+RFF,Right/left forefoot (mid MT1 and MT5),Virtual,*,
+LFF,,,,
