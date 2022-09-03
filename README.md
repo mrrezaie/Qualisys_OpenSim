@@ -47,7 +47,7 @@ The PAF is inspired by Qualisys PAF example: https://github.com/qualisys/paf-ope
 The markerset:
 ```{r, echo=FALSE, warning=FALSE}
 library(flextable)
-flextable(read.csv(./Template/test.csv"))
+flextable(read.csv(./Template/test.csv))
 ```
 
 Only Gait (Walking and Running) trials is supported.
