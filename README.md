@@ -68,8 +68,6 @@ In QTM 'Project Options', make sure these settings are satisfied before start pr
 Here I used MAT format instead of C3D because no C3D parser (e.g EZC3D or BTK) takes Kistler COP correction (FPCOPPOLY) prameter into account. Fortunately, QTM does it. Why don't we exclude mediums? QTM is also able to import C3D files and change force plate parameters.
 
 The markerset:
-![sample](./Templates/Markerset.csv)
-
 
 | Marker | Definition | Type | Static | Dynamic |
 | --- | --- | --- | --- | --- |
