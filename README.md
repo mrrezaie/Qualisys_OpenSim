@@ -45,10 +45,7 @@ The Workflow is inspired by Rajagopal sample simulation: https://simtk.org/proje
 The PAF is inspired by Qualisys PAF example: https://github.com/qualisys/paf-opensim-example
 
 The markerset:
-```{r, echo=FALSE, warning=FALSE}
-library(flextable)
-flextable(read.csv(./Template/test.csv))
-```
+![sample](./Template/test.csv)
 
 Only Gait (Walking and Running) trials is supported.
 
