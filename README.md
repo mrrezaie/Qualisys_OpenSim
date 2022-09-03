@@ -72,6 +72,7 @@ The markerset:
 
 
 | Marker | Definition | Type | Static | Dynamic |
+| --- | --- | --- | --- | --- |
 | C7 | C7 spinous process | Anatomical | * | * |
 | T10 | T10 spinous process | Anatomical | * | * |
 | CLAV | Right sternoclavicular prominent | Anatomical | * | * |
