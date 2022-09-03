@@ -38,14 +38,39 @@ Install miniconda/minigorge/mambaforge with the following packages:
 ### IMPORTANT NOTES
 USE IT AT YOUR OWN RISK.
 
+If you use this PAF or any functions of the script for your project, please cite this work as:
+```bibtex
+@misc{Qualisys_OpenSim,
+    title={OpenSim Workflow in Qualisys Track Manager Project Automation Framework},
+    author={Rezaie, Mohammadreza},
+    year={2022},
+    url={https://github.com/mrrezaie/Qualisys_OpenSim}
+}
+```
+
 The model is described by Rajagopal et al. (2016) with calibrated passive muscle force curves and improved hip abductor muscle paths: https://simtk.org/projects/fbmodpassivecal
 
 The Workflow is inspired by Rajagopal sample simulation: https://simtk.org/projects/full_body
 
 The PAF is inspired by Qualisys PAF example: https://github.com/qualisys/paf-opensim-example
 
+Only Gait (Walking and Running) trials is supported.
+
+Define subject Height and Mass accurately. They will be used in the analysis.
+
+Personally I do not filter markers data. However, I fill the gaps and remove the spikes in QTM using 'Trajectory Editor' tool.
+
+In QTM 'Project Options', make sure these settings are satisfied before start processing:
+- Coordinate system is set to World (Lab) in 'Force Data'
+- 3D data and Force data are checked in 'MATLAB file Export'
+- Python path is defined correctly in 'Folder Options'
+
+Here I used MAT format instead of C3D because no C3D parser (e.g EZC3D or BTK) takes Kistler COP correction (FPCOPPOLY) prameter into account. Fortunately, QTM does it. Why don't we exclude mediums? QTM is also able to import C3D files and change force plate parameters.
+
 The markerset:
 ![sample](./Templates/Markerset.csv)
+
+
 | Marker | Definition | Type | Static | Dynamic |
 | C7 | C7 spinous process | Anatomical | * | * |
 | T10 | T10 spinous process | Anatomical | * | * |
@@ -85,28 +110,4 @@ The markerset:
 | RMT5 | Right 5th metatarsal head | Anatomical | * | * |
 | LMT5 | Left 5th metatarsal head | Anatomical | * | * |
 
-
-Only Gait (Walking and Running) trials is supported.
-
-Define subject Height and Mass accurately. They will be used in the analysis.
-
-Personally I do not filter markers data. However, I fill the gaps and remove the spikes in QTM using 'Trajectory Editor' tool.
-
-In QTM 'Project Options', make sure these settings are satisfied before start processing:
-- Coordinate system is set to World (Lab) in 'Force Data'
-- 3D data and Force data are checked in 'MATLAB file Export'
-- Python path is defined correctly in 'Folder Options'
-
-Here I used MAT format instead of C3D because no C3D parser (e.g EZC3D or BTK) takes Kistler COP correction (FPCOPPOLY) prameter into account. Fortunately, QTM does it. Why don't we exclude mediums? QTM is also able to import C3D files and change force plate parameters.
-
-If you use this PAF or any functions of the script for your project, please cite this work as:
-
-```bibtex
-@misc{Qualisys_OpenSim,
-    title={OpenSim Workflow in Qualisys Track Manager Project Automation Framework},
-    author={Rezaie, Mohammadreza},
-    year={2022},
-    url={https://github.com/mrrezaie/Qualisys_OpenSim}
-}
-```
 
