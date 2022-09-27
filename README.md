@@ -54,7 +54,7 @@ The Workflow is inspired by Rajagopal sample simulation: https://simtk.org/proje
 
 The PAF is inspired by Qualisys PAF example: https://github.com/qualisys/paf-opensim-example
 
-Only Gait (Walking and Running) trials is supported.
+Only Gait (Walking and Running) trials are supported.
 
 Define subject Height and Mass accurately. They will be used in the analysis.
 
