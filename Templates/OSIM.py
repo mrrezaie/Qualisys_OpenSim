@@ -77,6 +77,8 @@ def readMAT():
 			[force['labels'].append(f'ground_force_{i+1}_v{j}') for j in ['x', 'y', 'z']]
 			[force['labels'].append(f'ground_force_{i+1}_p{j}') for j in ['x', 'y', 'z']]
 			[force['labels'].append(f'ground_moment_{i+1}_m{j}') for j in ['x', 'y', 'z']]
+	else:
+		force = []			
 
 	return marker, force
 
@@ -347,10 +349,9 @@ def motions():
 				loc = np.mean(force['location'][i], axis=0)
 				Rtemp = np.linalg.norm((RF-loc), axis=1, ord=2) # distance between right foot center and fp center
 				Ltemp = np.linalg.norm((LF-loc), axis=1, ord=2) # distance between left foot center and fp center
-				thr = int(force['rate'] * 0.01) # 10 ms 
-				if min(Rtemp)<min(Ltemp) and sum(Rtemp<200)>thr: # 200 mm distance to force plate center
+				if sum(Rtemp<300)>sum(Ltemp<300): # 300 mm distance to force plate center
 					force['foot'][i] = 'R'
-				elif min(Ltemp)<min(Rtemp) and sum(Ltemp<200)>thr:
+				elif sum(Ltemp<300)>sum(Rtemp<300):
 					force['foot'][i] = 'L'
 
 				# get time of foot contact
