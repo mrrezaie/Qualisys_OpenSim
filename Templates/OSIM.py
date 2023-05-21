@@ -267,7 +267,7 @@ def motions():
 			if   i==0: staticCoord += 'X'
 			elif i==1: staticCoord += 'Y'
 			elif i==2: staticCoord += 'Z'
-		if np.linalg.norm(midASIS, ord=2) < np.linalg.norm(midPSIS, ord=2):
+		if np.linalg.norm(midASIS[:,X], ord=2) < np.linalg.norm(midPSIS[:,X], ord=2):
 			staticCoord = '-' + staticCoord
 
 		# rotat static
